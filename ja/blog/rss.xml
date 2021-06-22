@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>IFC.js Blog</title>
+        <link>https://IFCjs.github.io/blog</link>
+        <description>IFC.js Blog</description>
+        <lastBuildDate>Mon, 21 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hola IFC.js!]]></title>
+            <link>https://IFCjs.github.io/info/ja/blog/Open BIM</link>
+            <guid>Open BIM</guid>
+            <pubDate>Mon, 21 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Where does it come from?]]></description>
+        </item>
+    </channel>
+</rss>
