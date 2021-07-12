@@ -4,15 +4,15 @@
         <title>IFC.js Blog</title>
         <link>https://IFCjs.github.io/blog</link>
         <description>IFC.js Blog</description>
-        <lastBuildDate>Mon, 21 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jul 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Hola IFC.js!]]></title>
+            <title><![CDATA[Hello IFC.js!]]></title>
             <link>https://IFCjs.github.io/info/blog/Open BIM</link>
             <guid>Open BIM</guid>
-            <pubDate>Mon, 21 Jun 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Where does it come from?]]></description>
+            <pubDate>Sat, 17 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Who we are and why we do this.]]></description>
         </item>
     </channel>
 </rss>

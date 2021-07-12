@@ -1,1 +1,0 @@
-(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[317],{7489:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/info/blog/tags","slug":"opensource","name":"opensource","count":1,"permalink":"/info/blog/tags/opensource"}')}}]);

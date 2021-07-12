@@ -1,1 +1,0 @@
-(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[795],{5362:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/info/ja/blog/tags","slug":"ifc-js","name":"ifc.js","count":1,"permalink":"/info/ja/blog/tags/ifc-js"}')}}]);
