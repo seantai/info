@@ -1,0 +1,1 @@
+(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[76],{4393:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/info/es/blog/tags","slug":"industria","name":"industria","count":1,"permalink":"/info/es/blog/tags/industria"}')}}]);

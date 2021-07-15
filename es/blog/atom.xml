@@ -8,10 +8,10 @@
     <subtitle>IFC.js Blog</subtitle>
     <icon>https://IFCjs.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Hello IFC.js!]]></title>
+        <title type="html"><![CDATA[Hola IFC.js]]></title>
         <id>Open BIM</id>
         <link href="https://IFCjs.github.io/info/es/blog/Open BIM"/>
         <updated>2021-07-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Who we are and why we do this.]]></summary>
+        <summary type="html"><![CDATA[Quiénes somos y por qué lo hacemos.]]></summary>
     </entry>
 </feed>

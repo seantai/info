@@ -8,11 +8,11 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Hello IFC.js!]]></title>
+            <title><![CDATA[Hallo IFC.js!]]></title>
             <link>https://IFCjs.github.io/info/nl/blog/Open BIM</link>
             <guid>Open BIM</guid>
             <pubDate>Sat, 17 Jul 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Who we are and why we do this.]]></description>
+            <description><![CDATA[Wie we zijn en waarom we dit doen.]]></description>
         </item>
     </channel>
 </rss>
