@@ -4,9 +4,16 @@
         <title>IFC.js Blog</title>
         <link>https://IFCjs.github.io/blog</link>
         <description>IFC.js Blog</description>
-        <lastBuildDate>Sat, 17 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jul 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[The BIM that we need]]></title>
+            <link>https://IFCjs.github.io/info/blog/prometheus</link>
+            <guid>prometheus</guid>
+            <pubDate>Tue, 27 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sometimes the only way to get what you need is to do it yourself.]]></description>
+        </item>
         <item>
             <title><![CDATA[Hello IFC.js!]]></title>
             <link>https://IFCjs.github.io/info/blog/Open BIM</link>

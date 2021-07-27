@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>IFC.js Blog</title>
+        <link>https://IFCjs.github.io/blog</link>
+        <description>IFC.js Blog</description>
+        <lastBuildDate>Tue, 27 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[我们需要的BIM]]></title>
+            <link>https://IFCjs.github.io/info/zh/blog/prometheus</link>
+            <guid>prometheus</guid>
+            <pubDate>Tue, 27 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[有时，获得你所需要的东西的唯一途径是自己动手。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[你好，IFC.js!]]></title>
+            <link>https://IFCjs.github.io/info/zh/blog/Open BIM</link>
+            <guid>Open BIM</guid>
+            <pubDate>Sat, 17 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[我们是谁，我们为什么这样做。]]></description>
+        </item>
+    </channel>
+</rss>

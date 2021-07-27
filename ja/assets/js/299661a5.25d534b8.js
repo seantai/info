@@ -1,1 +1,0 @@
-(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[720],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u3053\u3093\u306b\u3061\u306f\u3001IFC.js\u3067\u3059\u3002","permalink":"/info/ja/blog/Open BIM"}]}')}}]);
