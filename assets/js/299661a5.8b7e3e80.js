@@ -1,1 +1,0 @@
-(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[720],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Build a CDE in 30 minutes","permalink":"/info/blog/Build a CDE in 30 minutes"},{"title":"The BIM that we need","permalink":"/info/blog/prometheus"},{"title":"Hello IFC.js!","permalink":"/info/blog/Open BIM"}]}')}}]);
