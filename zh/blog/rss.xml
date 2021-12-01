@@ -4,9 +4,16 @@
         <title>IFC.js Blog</title>
         <link>https://IFCjs.github.io/blog</link>
         <description>IFC.js Blog</description>
-        <lastBuildDate>Mon, 27 Sep 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Why IFC doesn't work]]></title>
+            <link>https://IFCjs.github.io/info/zh/blog/Why IFC doesnt work</link>
+            <guid>Why IFC doesnt work</guid>
+            <pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[How is it so difficult to collaborate between software from different vendors?]]></description>
+        </item>
         <item>
             <title><![CDATA[Build a CDE in 30 minutes]]></title>
             <link>https://IFCjs.github.io/info/zh/blog/Build a CDE in 30 minutes</link>
