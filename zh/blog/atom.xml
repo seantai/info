@@ -8,18 +8,18 @@
     <subtitle>IFC.js Blog</subtitle>
     <icon>https://IFCjs.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Why IFC doesn't work]]></title>
+        <title type="html"><![CDATA[为什么IFC不起作用]]></title>
         <id>Why IFC doesnt work</id>
         <link href="https://IFCjs.github.io/info/zh/blog/Why IFC doesnt work"/>
         <updated>2021-12-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How is it so difficult to collaborate between software from different vendors?]]></summary>
+        <summary type="html"><![CDATA[在不同供应商的软件之间进行协作，怎么会这么困难呢？]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Build a CDE in 30 minutes]]></title>
+        <title type="html"><![CDATA[在30分钟内建立一个CDE]]></title>
         <id>Build a CDE in 30 minutes</id>
         <link href="https://IFCjs.github.io/info/zh/blog/Build a CDE in 30 minutes"/>
         <updated>2021-09-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[All the big companies are selling their CDE. Why don't YOU make your own CDE?]]></summary>
+        <summary type="html"><![CDATA[所有的大公司都在销售他们的CDE。你为什么不做你自己的CDE呢？]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[我们需要的BIM]]></title>

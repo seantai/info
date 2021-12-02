@@ -8,18 +8,18 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Why IFC doesn't work]]></title>
+            <title><![CDATA[为什么IFC不起作用]]></title>
             <link>https://IFCjs.github.io/info/zh/blog/Why IFC doesnt work</link>
             <guid>Why IFC doesnt work</guid>
             <pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[How is it so difficult to collaborate between software from different vendors?]]></description>
+            <description><![CDATA[在不同供应商的软件之间进行协作，怎么会这么困难呢？]]></description>
         </item>
         <item>
-            <title><![CDATA[Build a CDE in 30 minutes]]></title>
+            <title><![CDATA[在30分钟内建立一个CDE]]></title>
             <link>https://IFCjs.github.io/info/zh/blog/Build a CDE in 30 minutes</link>
             <guid>Build a CDE in 30 minutes</guid>
             <pubDate>Mon, 27 Sep 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[All the big companies are selling their CDE. Why don't YOU make your own CDE?]]></description>
+            <description><![CDATA[所有的大公司都在销售他们的CDE。你为什么不做你自己的CDE呢？]]></description>
         </item>
         <item>
             <title><![CDATA[我们需要的BIM]]></title>
