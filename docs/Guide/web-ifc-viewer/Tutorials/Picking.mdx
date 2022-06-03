@@ -1,0 +1,81 @@
+---
+title: 🤏 Picking
+sidebar_position: 1
+---
+import {IfcCard} from "../../../../src/components/Card/InfoCard";
+import {IfcAlert} from "../../../../src/components/Alert/Alert";
+import {Scene} from "../../../../src/components/Scene/Scene"
+
+## Introduction
+
+🚶‍♀️ Now that you're able to load models into your scene, we can jump into the functionalities that make `web-ifc-viewer` really shine. In this section we'll learn to make our models a little more interactive, by **displaying information** from the model when parts of it are **double clicked**. 
+
+## How to do it 
+### Picking apart our model
+
+⛏️  Have a look at this `pick()` function that **casts** a ray to find out if a model is double clicked, then **gets** information for us to display.
+
+```js
+function pick() {
+	const clickedModel = viewer.context.castRayIfc();
+	if (!clickedModel) return;
+	const manager = viewer.IFC.loader.ifcManager;
+	const id = manager.getExpressId(clickedModel.object.geometry, clickedModel.faceIndex);
+    output.innerHTML = id;
+}
+```
+We can call `castRayIfc()` to store the model's information in an object. 
+
+```js
+const output = document.getElementById("id-output");
+```
+In this case, we'll get an **Express ID** to display in the `output` element we'll soon create. Let's store a reference for it.
+
+<IfcCard>
+🙌 Under the hood web-ifc-viewer borrows the <a href="https://threejs.org/docs/index.html?q=raycaster#api/en/core/Raycaster">Raycaster</a> from Three.js. And since IFC.js created the official <a href="https://threejs.org/examples/webgl_loader_ifc.html">IFCLoader</a> for Three.js, it's a beautiful marriage! 
+</IfcCard>
+
+### HTML & CSS
+
+🎨 Let's quickly **add an element** with some styling to show the world what happens when they double click a model.
+
+```html 
+<div class="message-container">
+    <p class="message">ID:</p>
+    <p class="message" id="id-output">None</p>
+</div>
+```
+
+```css
+.message-container {
+    z-index: 1;
+    position: absolute;
+    margin: 16px;
+    background-color: rgba(255,255,255,0.8);
+    display: inline-block;
+    padding: 10px;
+}
+
+.message {
+    display: inline;
+    color: black;
+}
+```
+
+### Handle it!
+
+🖐️ The logic is ready for us to pick our model information. Now we can **add a global event handler** to fire our `pick()` function. We'll pass it the `viewer` argument, which is an instance of `IfcViewerAPI` we created in a previous tutorial. 
+
+```js
+window.ondblclick = () => pick(viewer); 
+```
+
+If you have done everything right and double click on a part of the model, you'll see the corresponding Express ID shown in the browser.
+<!--
+<Scene link={"https://github.com/IFCjs/hello-world/examples/web-ifc-viewer/picking"}/>
+Check out the <a href="https://github.com/IFCjs/hello-world/tree/main/examples/web-ifc-viewer/picking">Github Repo</a> to view the complete code. 
+-->
+## Next steps
+
+🎉🎉🎉
+Congrats! You now know how to get the Express ID of a model by clicking on it. Now we can do many things using that ID, or any other information from the object we returned.
