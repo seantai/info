@@ -25,23 +25,19 @@ You have both freedom and responsibility when it comes to **memory management** 
 
 ### Monitoring the memory
 
-👀 [stats.js](https://github.com/mrdoob/stats.js/) is a library to **monitor the memory and performance** of your Three.js app, made by the creator of Three.js himself. Let's go ahead and install with `npm i stats.js`, **import**, **initialize** and **hook it** into our render loop.
+👀 [stats.js](https://github.com/mrdoob/stats.js/) is a library to **monitor the memory and performance** of your Three.js app, made by the creator of Three.js himself. Let's go ahead and install with `npm i stats.js`, **import**, **initialize** and **attach it** to our viewer.
 
 ```js
 import Stats from "stats.js/src/Stats";
 
-// init
 const stats = new Stats();
-stats.showPanel(2);
-document.body.append(stats.dom);
+addStats();
 
-//hook into render loop
-function animate() {
-  stats.begin();
-  stats.end();
-  requestAnimationFrame(animate);
-}
-animate();
+function addStats() {
+    stats.showPanel(2);
+    document.body.append(stats.dom);
+    viewer.context.stats = stats;
+};
 ```
 
 📋 During development we don't have to second guess our memory management anymore, because now it's **visualized** for us.
@@ -96,10 +92,11 @@ function releaseMemory() {
   viewer = null;
   viewer = new IfcViewerAPI({ container });
   viewer.IFC.setWasmPath("../../../");
+  addStats();
 }
 ```
 
-❗❗ Keep in mind: Once we call `dispose()`, we need to **re-initialize** our viewer instance.❗❗
+❗❗ Keep in mind: Once we call `dispose()`, we need to **re-initialize** our viewer instance (and Stats module)❗❗
 
 ⌨️ For this example let's attach our function to a new HTML button.
 
